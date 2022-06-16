@@ -52,9 +52,8 @@ function likepost (event){
 
 //add eventlistener to likeBtn
 likeBtn.forEach(heart => {
-  heart.addEventlistener("click",likepost)
-  
-});
+  heart.addEventListener("click", likepost)
+})
 
 
 
